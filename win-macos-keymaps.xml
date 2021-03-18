@@ -1,0 +1,52 @@
+<keymap version="1" name="macOS For All copy" parent="macOS For All">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="ChangesView.GroupBy.Module" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="EditorCutLineEnd" />
+  <action id="EditorMatchBrace" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="NextSplitter" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="PrevSplitter" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="ResourceExplorer.show" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="ctrl meta alt l" />
+  </action>
+  <action id="TableResult.UnselectPreviousOccurrence" />
+  <action id="Terminal.NextSplitter" />
+  <action id="Terminal.PrevSplitter" />
+  <action id="TodoViewGroupByShowModules" />
+  <action id="UnselectPreviousOccurrence" />
+  <action id="UsageGrouping.Module" />
+</keymap>
