@@ -16,7 +16,13 @@ You can find in this repo the source file.
 
 ## Intellij
 
-- https://plugins.jetbrains.com/plugin/13968-macos-for-all
+I use intellij for development and use a plugin to fetch a keymap config close to macos default config. I needed to update this config to support `meta` key from magic keyboard :
+
+    Help -> Edit Custom Properties...
+      - In the file that opens, add this on a new line: keymap.windows.as.meta=true
+
+- [Custom keymap](win-macos-keymaps.xml)
+- [macos-for-all plugin](https://plugins.jetbrains.com/plugin/13968-macos-for-all)
 
 ## AutoHotKey
 
@@ -25,3 +31,12 @@ The provided script will create a lot of shortcut for OS and will also complete 
 
 - [AutoHotKey](https://www.autohotkey.com/)
 - [Script AutoHotKey](AutoHotKey.ahk)
+
+## Terminal
+
+I tried to use wsl2 for terminal but I had some issue and very slow performance with git commands so I decided to use powershell and customize it with oh-my-posh (oh-my-zsh equivalent for powershell).
+Then I installed Windows Terminal to be able to switch easily between different terminal (powershell, wsl, git, etc..)
+
+- [oh my posh](https://ohmyposh.dev/docs/)
+- [Windows Terminal](https://github.com/microsoft/terminal)
+
