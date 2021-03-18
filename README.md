@@ -19,3 +19,9 @@ You can find in this repo the source file.
 - https://plugins.jetbrains.com/plugin/13968-macos-for-all
 
 ## AutoHotKey
+
+Then we need to install AutoHotKey for create shortcut like macos (⌘ + C, ⌘ + V, etc).
+The provided script will create a lot of shortcut for OS and will also complete intellij shortcuts
+
+- [AutoHotKey](https://www.autohotkey.com/)
+- [Script AutoHotKey](AutoHotKey.ahk)
