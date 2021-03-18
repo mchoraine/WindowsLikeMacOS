@@ -25,7 +25,7 @@ I use intellij for development and use a plugin to fetch a keymap config close t
     Help -> Edit Custom Properties...
       - In the file that opens, add this on a new line: keymap.windows.as.meta=true
 
-- [Custom keymap](win-macos-keymaps.xml)
+- [Custom keymap](intellij/win-macos-keymaps.xml)
 - [macos-for-all plugin](https://plugins.jetbrains.com/plugin/13968-macos-for-all)
 
 ## AutoHotKey
@@ -35,7 +35,7 @@ Then we need to install AutoHotKey for create shortcut like macos (⌘ + C, ⌘ 
 The provided script will create a lot of shortcut for OS and will also complete intellij shortcuts
 
 - [AutoHotKey](https://www.autohotkey.com/)
-- [Script AutoHotKey](AutoHotKey.ahk)
+- [Script AutoHotKey](shortcuts/AutoHotKey.ahk)
 
 ## Terminal
 
