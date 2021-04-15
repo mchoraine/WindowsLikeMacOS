@@ -246,6 +246,8 @@ Lwin::LCtrl
     !<#Left::SendInput ^!{Left}
     !<#Right::SendInput ^!{Right}
 
+    #p::SendInput ^{p}
+
 
     ; NOTES
     ; --------------------------------------------------------------
